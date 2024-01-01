@@ -1,0 +1,18 @@
+{
+  "name": "eventor-api",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "keywords": [
+    "Eventor",
+    "Orienteering"
+  ],
+  "author": "Carl Grundberg",
+  "license": "ISC",
+  "description": "Node client for the Eventor Orienteering System API",
+  "dependencies": {
+    "@types/node": "^20.10.6",
+    "query-string": "^8.1.0",
+    "typescript": "^5.3.3",
+    "xml2js": "^0.6.2"
+  }
+}
