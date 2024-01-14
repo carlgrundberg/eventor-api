@@ -23,6 +23,8 @@ export type EventorEventRace = {
 export type EventorEvent = {
   eventid: string;
   name: string;
+  eventclassificationid: string;
+  disciplineid: string;
   startdate: EventorEventDate;
   finishdate: EventorEventDate;
   eventrace: EventorEventRace;
